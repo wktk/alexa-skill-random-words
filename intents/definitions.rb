@@ -44,9 +44,7 @@ intent 'AMAZON.NavigateHomeIntent' do
 end
 
 intent 'NumSpecifiedIntent' do
-  count = request.slot_value('count').to_i
-  count = 3 if count < 1
-  respond("#{random_words(count).join('、')}。続けますか？")
+  respond("#{random_words(request.slot_value('count')).join('、')}。続けますか？")
 end
 
 intent 'SomeWordsIntent' do
