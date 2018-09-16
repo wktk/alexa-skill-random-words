@@ -31,7 +31,9 @@ git push heroku master
 ```
 
 ## Thanks
+
 単語辞書として、 [日本語 WordNet](http://compling.hss.ntu.edu.sg/wnja/) を利用しています。
+Japanese Wordnet (v1.1) © 2009-2011 NICT, 2012-2015 Francis Bond and 2016-2017 Francis Bond, Takayuki Kuribayashi
 
 ## License
 
