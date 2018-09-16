@@ -3,9 +3,11 @@ GEM
   specs:
     alexa_verifier (1.0.0)
     mustermann (1.0.3)
+    puma (3.12.0)
     rack (2.0.5)
     rack-protection (2.0.4)
       rack
+    rake (12.3.1)
     ralyxa (1.8.0)
       alexa_verifier (~> 1.0)
     sinatra (2.0.4)
@@ -20,6 +22,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  puma (~> 3.12)
+  rake (~> 12.3)
   ralyxa (~> 1.8)
   sinatra (~> 2.0)
   sqlite3 (~> 1.3)
