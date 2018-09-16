@@ -32,3 +32,8 @@ git push heroku master
 
 ## Thanks
 単語辞書として、 [日本語 WordNet](http://compling.hss.ntu.edu.sg/wnja/) を利用しています。
+
+## License
+
+GPLv3  
+Copyright (C) wktk 2018
