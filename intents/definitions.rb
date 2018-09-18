@@ -38,9 +38,11 @@ intent 'AMAZON.NoIntent' do
 end
 
 intent 'SessionEndedRequest' do
+  tell('ランダム単語を終了します')
 end
 
 intent 'AMAZON.NavigateHomeIntent' do
+  tell('ランダム単語を終了します')
 end
 
 intent 'NumSpecifiedIntent' do
