@@ -48,7 +48,3 @@ end
 intent 'NumSpecifiedIntent' do
   respond("#{random_words(request.slot_value('count')).join('、')}。続けますか？")
 end
-
-intent 'SomeWordsIntent' do
-  respond("#{random_words([3,4,5].sample).join('、')}。続けますか？")
-end
