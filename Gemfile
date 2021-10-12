@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.5.1'
 
-gem 'puma', '~> 3.12'
+gem 'puma', '~> 4.3'
 gem 'rake', '~> 12.3'
 gem 'ralyxa', '~> 1.8'
 gem 'sinatra', '~> 2.0'
