@@ -4,7 +4,7 @@ GEM
     alexa_verifier (1.0.0)
     mustermann (1.0.3)
     puma (3.12.6)
-    rack (2.2.3)
+    rack (2.2.3.1)
     rack-protection (2.0.4)
       rack
     rake (12.3.3)
